@@ -1,0 +1,7 @@
+{
+    "test_login": {
+        "username": "tomsmith",
+        "password": "SuperSecretPassword!",
+        "alert_text": "You logged into a secure area!"
+    }
+}
