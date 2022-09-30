@@ -3,10 +3,5 @@
         "username": "username",
         "password": "SuperSecretPassword!",
         "error_message": "Your username is invalid!"
-    },
-   "test_password": {
-        "username": "tomsmith",
-        "password": "password",
-        "error_message": "Your password is invalid!"
     }
 }

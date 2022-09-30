@@ -15,3 +15,10 @@ class BaseDriver:
     def wait_for_presence_of_all_elements(self, locator_type, locator: str):
         elements = self.wait.until(EC.presence_of_element_located((locator_type, locator)))
         return elements
+
+    def text_element(self, locator_type, locator, text):
+        result = self.wait.until(EC.text_to_be_present_in_element((locator_type, locator), text))
+        return result
+
+    def close_current_window(self):
+        self.driver.close()
